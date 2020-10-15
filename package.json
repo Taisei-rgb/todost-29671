@@ -12,9 +12,10 @@
     "react-scripts": "3.4.3"
   },
   "scripts": {
+    "postinstall": "gulp browserify",
     "start": "node server/server.js",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
