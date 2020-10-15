@@ -4,9 +4,10 @@
   box-sizing: border-box;
 }
 body {
-  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+  background-color: #16f1a888;
   color: white;
-  font-family: "Poppins", sans-serif;
+  font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体",
+  "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
   min-height: 100vh;
 }
 header {
@@ -15,7 +16,7 @@ header {
 
 header,
 form {
-  min-height: 20vh;
+  min-height: 15vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -28,13 +29,13 @@ form button {
   background: white;
 }
 form button {
-  color: #ff6f47;
-  background: #f7fffe;
+  color: #33cd99;
+  background: white;
   cursor: pointer;
   transition: all 0.3s ease;
 }
 form button:hover {
-  background: #ff6f47;
+  background: #33cd99;
   color: white;
 }
 .todo-container {
@@ -75,7 +76,7 @@ form button:hover {
   font-size: 1rem;
 }
 .complete-btn {
-  background: rgb(11, 212, 162);
+  background: #33cd99;
 }
 .todo-item {
   padding: 0rem 0.5rem;
@@ -115,8 +116,11 @@ select {
   overflow: hidden;
 }
 select {
-  color: #ff6f47;
-  font-family: "Poppins", sans-serif;
+  color: #33cd99;
+  font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体",
+  "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+  text-transform: none;
+  font-weight: bold;
   cursor: pointer;
   width: 12rem;
 }
@@ -127,7 +131,7 @@ select {
   top: 0;
   right: 0;
   padding: 1rem;
-  background: #ff6f47;
+  background: #33cd99;
   cursor: pointer;
   pointer-events: none;
 }
