@@ -11,7 +11,7 @@ URL : https://todost-29671.herokuapp.com/
  
 # DEMO
 
-
+![todost](https://user-images.githubusercontent.com/69156263/96399614-b7a54780-1209-11eb-985c-486a844a709b.gif)
  
 # 工夫した点
 * ストレスを想定したアプリなので、色は自然をイメージした緑がメインとなっております。
